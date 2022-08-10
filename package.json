@@ -1,0 +1,19 @@
+{
+  "name": "tree-traversal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "order-traversal.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "npm run build && node ./dist/tree-traverse.bundle.js"
+  },
+  "keywords": [
+    "tree traversal",
+    "dsa"
+  ],
+  "author": "Sibendu Sankar Das",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
