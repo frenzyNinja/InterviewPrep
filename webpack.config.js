@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    'tree-traverse': './src/main.js'
+    'tree-traverse': './src/tree-traversal/main.js'
   },
   mode: 'development',
   output: {
